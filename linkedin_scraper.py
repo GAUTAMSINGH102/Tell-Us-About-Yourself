@@ -51,5 +51,5 @@ def scrap_profile(profile_link):
 
     return scraped
 
-# scraped = scrap_profile('https://www.linkedin.com/in/gautam-singh-12a3761b8/')
-# print(scraped)
+scraped = scrap_profile('https://www.linkedin.com/in/gautam-singh-12a3761b8/')
+print(scraped)
