@@ -9,7 +9,7 @@ import os
 #password = os.getenv("LINKEDIN_PASSWORD")
 
 email = "gautamsingh.00721@gmail.com"
-password = "102Gautamsingh*"
+password = ""
 
 def get_username_from_link(link):
     parse = urlparse(link)
