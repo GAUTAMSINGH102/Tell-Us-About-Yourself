@@ -2,8 +2,8 @@ import cohere
 import textwrap
 import config
 
-# co = cohere.Client(config.API_KEY)
-API_KEY = 'j9fltyvpID3YyH82yoUqSCjhcydpMh1vG3lLS83z'
+co = cohere.Client(config.API_KEY)
+API_KEY = ''
 co = cohere.Client(API_KEY)
 
     # --

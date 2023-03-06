@@ -1,6 +1,6 @@
 # import openai
 
-# openai.api_key ="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"
+# openai.api_key =""
 
 # def gpt_generate(data):
 #     response = openai.Completion.create(
