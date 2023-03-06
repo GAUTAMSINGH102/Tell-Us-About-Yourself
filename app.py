@@ -2,7 +2,7 @@ from flask import Flask, redirect, render_template, request, url_for, jsonify
 # from flask_cors import CORS
 from cohere_api import cohere_generate
 # from gpt_api import gpt_generate
-from linkedin_scraper import scrap_profile
+# from linkedin_scraper import scrap_profile
 import textwrap
 
 app = Flask(__name__)
@@ -16,11 +16,11 @@ def parse_linkedin():
     link = request.json['link']
     print()
     print(link)
-    profile = scrap_profile(link)
-    print('profile_comback')
-    print( profile)
-    return jsonify(profile)
-    # return "Profile"
+    # profile = scrap_profile(link)
+    # print('profile_comback')
+    # print( profile)
+    # return jsonify(profile)
+    return "Profile"
 
 # @app.route('/dev/gpt', methods=["POST"])
 # def send_gpt():
